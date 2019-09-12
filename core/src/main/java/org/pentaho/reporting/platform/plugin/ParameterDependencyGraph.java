@@ -203,7 +203,6 @@ public class ParameterDependencyGraph {
 
           // No dependency information at all - No need to continue
           if ( queryDependencies == null ) {
-            dependencyInformationAvailable = false;
             continue;
           }
 

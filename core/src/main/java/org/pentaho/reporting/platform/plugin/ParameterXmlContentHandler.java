@@ -1020,7 +1020,7 @@ public class ParameterXmlContentHandler {
       if ( offset < 0 ) {
         value.append( "-" );
       } else {
-        value.append( "+" );
+        value.append( "\\+" );
       }
 
       final int seconds = Math.abs( offset / 1000 );
