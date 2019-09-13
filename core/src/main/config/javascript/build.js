@@ -24,7 +24,7 @@
   appDir: "${project.build.directory}/src-javascript",
 
   //How to optimize all the JS files in the build output directory.
-  optimize: "${js.build.optimizer}",
+  optimize: "none",
 
   //By default, all modules are located relative to this path. If appDir is set, then
   //baseUrl should be specified as relative to the appDir.

@@ -715,7 +715,7 @@ define([
 
             //Timezone is not found in a value, check the hint
             if (timezoneHint) {
-              timezoneHint = timezoneHint.replace("/\\+/", "+"); //remove illegal format "\+xxxx" for timezone
+              timezoneHint = timezoneHint.replace("\\+", "+"); //remove illegal format "\+xxxx" for timezone
               //Timezone hint is present, apply it
               return processingValue + timezoneHint;
             }
